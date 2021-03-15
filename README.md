@@ -11,7 +11,7 @@ First step is clone this repository from github to your local machine.
 # Requirements 📋
 To run in yout machine you should be installed next requirements:
 
-1. If you like test this project in a docker container you should be installed Docker. The Dockerfile creates two containers, first a container with Maven whitch compile the project and generate *jar* file. Next this jar file going to the second container, a open-jdk-8 whitch containers run the application.
+1. If you like test this project in a docker container you should be installed Docker. The Dockerfile creates two containers, first a container with Maven whitch compile the project and generate *jar* file. Next this jar file going to the second container, a open-jdk-11 whitch containers run the application.
 
 Run the following command to generate a container in the project folder
 
